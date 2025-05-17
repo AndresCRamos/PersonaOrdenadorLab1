@@ -12,7 +12,7 @@ import Link from "next/link";
 const blogEntries = [
   {
     slug: "web-dev",
-    title: "Desarrollo web",
+    title: "Desarrollo Web: Más Allá de lo Visual",
     description:
       "Introducción a desarrollo de interfaces y lógica web modernas.",
   },
