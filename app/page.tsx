@@ -18,7 +18,7 @@ const blogEntries = [
   },
   {
     slug: "html",
-    title: "HTML 5 semantico",
+    title: "HTML 5 Semántico: La Base Significativa de la Web",
     description: "Estructura semántica y accesibilidad con HTML5.",
   },
   {
