@@ -23,7 +23,7 @@ const blogEntries = [
   },
   {
     slug: "css",
-    title: "Responsive CSS",
+    title: "Responsive CSS: Diseña para todos los dispositivos",
     description: "Diseño responsivo y layout con Flexbox y Grid.",
   },
   {
