@@ -1,6 +1,6 @@
 import BlogEntryLayout from "@/components/BlogEntryLayout/BlogEntryLayout";
 import Section from "@/components/Section/Section";
-import { Text } from "@mantine/core";
+import { Container, Image, Text } from "@mantine/core";
 
 export default function Page() {
   return (
@@ -26,14 +26,15 @@ export default function Page() {
           <li>{"<nav>"} para menús de navegación</li>
           <li>{"<main>"} para el contenido principal</li>
           <li>{"<article>"} para una publicación independiente</li>
-          <li>
-            {"<footer>"} para el pie de página Esto hace que el código sea más
-            legible, mantenible y accesible.
-          </li>
+          <li>{"<footer>"} para el pie de página</li>
         </ul>
-        {/* TODO: Imagen sugerida Descripción: Una comparativa entre un bloque de código
-        usando solo {"<div>"} s vs. uno usando etiquetas semánticas, mostrando
-        la diferencia en claridad. */}
+        <Text>
+          Esto hace que el código sea más legible, fácil de mantener y
+          accesible.
+        </Text>
+        <Container size={"xs"}>
+          <Image src={"/semantic_html.png"} alt="" />
+        </Container>
       </Section>
       <Section title="¿Por qué es importante?" order={2}>
         Accesibilidad: tecnologías como lectores de pantalla dependen de estas
