@@ -28,8 +28,8 @@ const blogEntries = [
   },
   {
     slug: "js",
-    title: "JS y Next.js",
-    description: "Sitios interactiva con JavaScript y Next.js.",
+    title: "Interactividad Moderna con JavaScript, Next.js y TypeScript",
+    description: "Sitios interactiva con JavaScript, Next.js. y TypeScript.",
   },
 ];
 
