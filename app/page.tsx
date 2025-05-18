@@ -41,21 +41,19 @@ const blogEntries = [
 export default function Page() {
   return (
     <Container size="lg" py="xl">
-      {/* Título de la materia */}
       <Center>
         <Title order={1} mb="md">
           Desarrollo de Aplicaciones en Red
         </Title>
       </Center>
 
-      {/* Descripción breve */}
       <Text size="md" mb="xl">
         El desarrollo de aplicaciones en red abarca la creación de software que
         se autentica, comunica y procesa datos a través de redes. Incluye tanto
         el front-end como el back-end, protocolos de comunicación y prácticas de
         seguridad para garantizar aplicaciones robustas y escalables.
       </Text>
-      {/* Grid de tarjetas de entradas */}
+
       <SimpleGrid cols={2} spacing="lg">
         {blogEntries.map(({ slug, title, description }) => (
           <Card
