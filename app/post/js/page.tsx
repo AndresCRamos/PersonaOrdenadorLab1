@@ -1,6 +1,6 @@
 import BlogEntryLayout from "@/components/BlogEntryLayout/BlogEntryLayout";
 import Section from "@/components/Section/Section";
-import { Code, Container, Text } from "@mantine/core";
+import { Code, Container, Image, Text } from "@mantine/core";
 
 const JSBLog = () => {
   const jsCode = `document.querySelector("button").addEventListener("click", () => {
@@ -37,11 +37,11 @@ const JSBLog = () => {
           Pero en proyectos modernos no usamos solo JS puro: usamos frameworks
           como Next.js para escalar y organizar la lógica de forma profesional.
         </Text>
-        {/*TODO: Imagen sugerida Descripción: Un esquema visual mostrando cómo el
-        navegador interactúa con componentes de React, cómo Next.js los
-        renderiza y cómo el código se divide entre cliente y servidor.*/}
       </Section>
       <Section title="¿Por qué usar Next.js?" order={2}>
+        <Container size={"xs"}>
+          <Image src={`/ssr.png`} alt=""></Image>
+        </Container>
         <Text>
           Next.js es un framework basado en React que facilita la creación de
           apps web modernas. Sus ventajas:
@@ -55,6 +55,7 @@ const JSBLog = () => {
           <li>API routes para lógica del backend </li>
           <li>Soporte nativo para TypeScript</li>
         </ul>
+
         <Container size={"xs"}>
           <Code block>{nextCode}</Code>
         </Container>
