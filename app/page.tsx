@@ -22,6 +22,11 @@ const blogEntries = [
     description: "Estructura semántica y accesibilidad con HTML5.",
   },
   {
+    slug: "inputs",
+    title: "Formularios e Inputs",
+    description: "Captura de datos con HTML y componentes modernos de UI.",
+  },
+  {
     slug: "css",
     title: "Responsive CSS: Diseña para todos los dispositivos",
     description: "Diseño responsivo y layout con Flexbox y Grid.",
