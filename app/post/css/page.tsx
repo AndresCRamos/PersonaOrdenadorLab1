@@ -1,6 +1,6 @@
 import BlogEntryLayout from "@/components/BlogEntryLayout/BlogEntryLayout";
 import Section from "@/components/Section/Section";
-import { Code, Container, Text } from "@mantine/core";
+import { Code, Container, Image, Text } from "@mantine/core";
 
 const CSSPage = () => {
   const flexCode = `display: flex; 
@@ -29,6 +29,9 @@ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));`;
           solo una estructura flexible que se reorganiza según el espacio
           disponible.
         </Text>
+        <Container size={"xs"}>
+          <Image src={`/responsive.png`} alt="" />
+        </Container>
       </Section>
       <Section title="Herramientas clave: Flexbox y Grid" order={2}>
         <Text>
@@ -51,9 +54,6 @@ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));`;
             </Container>
           </li>
         </ul>
-        {/* TODO: Imagen sugerida Descripción: Captura o ilustración mostrando cómo una
-        misma interfaz cambia de estructura entre una pantalla de escritorio,
-        una tablet y un teléfono móvil gracias a Flexbox/Grid. */}
       </Section>
       <Section title="Media Queries: Personaliza por pantalla" order={2}>
         <Text>
