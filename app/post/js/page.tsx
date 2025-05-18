@@ -61,7 +61,7 @@ const JSBLog = () => {
       </Section>
       <Section title="¿Y qué es TypeScript?" order={2}>
         <Text>
-          TypeScript es un superconjunto de JavaScript que añade tipado
+          TypeScript es un super-conjunto de JavaScript que añade tipado
           estático. Es decir, ayuda a evitar errores antes de ejecutar el
           código.
         </Text>
@@ -69,7 +69,7 @@ const JSBLog = () => {
           <Code block>{tsCode}</Code>
         </Container>
         <Text>
-          Esto hace el codigo mas facil de mantener, y la experiencia en
+          Esto hace el código mas fácil de mantener, y la experiencia en
           editores como VS Code, mostrando sugerencias y advertencias al
           instante.
         </Text>

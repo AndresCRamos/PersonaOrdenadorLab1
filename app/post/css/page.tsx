@@ -78,7 +78,8 @@ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));`;
             Prueba tu diseño en distintos tamaños desde el navegador (DevTools).
           </li>
           <li>
-            No ocultes contenido importante en pantallas pequeñas; reorganízalo.
+            No ocultes contenido importante en pantallas pequeñas; es mejor
+            reorganizar.
           </li>
         </ul>
       </Section>

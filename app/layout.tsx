@@ -1,9 +1,13 @@
-'use client';
+"use client";
 
-import { AppShell, ColorSchemeScript, mantineHtmlProps, MantineProvider } from '@mantine/core';
-import '@mantine/core/styles.css';
+import "@mantine/core/styles.css";
 
-
+import {
+  AppShell,
+  ColorSchemeScript,
+  mantineHtmlProps,
+  MantineProvider,
+} from "@mantine/core";
 
 export default function RootLayout({
   children,
@@ -17,19 +21,12 @@ export default function RootLayout({
       </head>
       <body>
         <MantineProvider>
-          <AppShell 
-            header={{ height: 60 }}
-            padding="md"
-          >
+          <AppShell header={{ height: 60 }} padding="md">
             <AppShell.Header />
-            <AppShell.Main>
-                {children}
-            </AppShell.Main>
+            <AppShell.Main>{children}</AppShell.Main>
           </AppShell>
         </MantineProvider>
       </body>
     </html>
   );
 }
-
-
