@@ -7,7 +7,7 @@ const nextConfig = {
   output: "export",
   
   basePath: "/persona-ordenador-lab1",
-  assetPrefix: "/persona-ordenador-lab1/",
+  assetPrefix: "/persona-ordenador-lab1/", 
   images: {
     unoptimized: true,
   },
