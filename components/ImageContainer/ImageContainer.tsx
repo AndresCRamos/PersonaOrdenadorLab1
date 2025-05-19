@@ -7,7 +7,7 @@ interface ImageContainerProps {
 const ImageContainer = ({path}:ImageContainerProps) => {
     return <>
         <Container size={"xs"}>
-            <Image src={"/persona-ordenador-lab1/"+path} alt="" />
+            <Image src={"/app-red-lab1/"+path} alt="" />
         </Container>;
     </>
 }
