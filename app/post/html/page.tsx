@@ -1,6 +1,7 @@
 import BlogEntryLayout from "@/components/BlogEntryLayout/BlogEntryLayout";
+import ImageContainer from "@/components/ImageContainer/ImageContainer";
 import Section from "@/components/Section/Section";
-import { Container, Image, Text } from "@mantine/core";
+import { Text } from "@mantine/core";
 
 export default function Page() {
   return (
@@ -32,9 +33,7 @@ export default function Page() {
           Esto hace que el código sea más legible, fácil de mantener y
           accesible.
         </Text>
-        <Container size={"xs"}>
-          <Image src={"/semantic_html.png"} alt="" />
-        </Container>
+        <ImageContainer path={"/semantic_html.png"}/>
       </Section>
       <Section title="¿Por qué es importante?" order={2}>
         Accesibilidad: tecnologías como lectores de pantalla dependen de estas

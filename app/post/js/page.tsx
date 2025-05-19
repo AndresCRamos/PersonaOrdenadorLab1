@@ -1,6 +1,7 @@
 import BlogEntryLayout from "@/components/BlogEntryLayout/BlogEntryLayout";
+import ImageContainer from "@/components/ImageContainer/ImageContainer";
 import Section from "@/components/Section/Section";
-import { Code, Container, Image, Text } from "@mantine/core";
+import { Code, Container, Text } from "@mantine/core";
 
 const JSBLog = () => {
   const jsCode = `document.querySelector("button").addEventListener("click", () => {
@@ -39,9 +40,7 @@ const JSBLog = () => {
         </Text>
       </Section>
       <Section title="¿Por qué usar Next.js?" order={2}>
-        <Container size={"xs"}>
-          <Image src={`/ssr.png`} alt=""></Image>
-        </Container>
+        <ImageContainer path={`/ssr.png`}/>
         <Text>
           Next.js es un framework basado en React que facilita la creación de
           apps web modernas. Sus ventajas:

@@ -1,6 +1,7 @@
 import BlogEntryLayout from "@/components/BlogEntryLayout/BlogEntryLayout";
+import ImageContainer from "@/components/ImageContainer/ImageContainer";
 import Section from "@/components/Section/Section";
-import { Container, Image, Text } from "@mantine/core";
+import { Text } from "@mantine/core";
 
 const HTMLBlog = () => (
   <BlogEntryLayout title="Desarrollo Web: Más Allá de lo Visual">
@@ -25,9 +26,7 @@ const HTMLBlog = () => (
         Todo esto funciona en conjunto para ofrecer una experiencia coherente,
         intuitiva y funcional al usuario.
       </Text>
-      <Container size={"xs"} pt={"md"}>
-        <Image src={"/build.jpg"} alt="" radius={"lg"} />
-      </Container>
+      <ImageContainer path={"/build.jpg"}/>
     </Section>
     <Section title="El Rol del Frontend" order={2}>
       <Text>

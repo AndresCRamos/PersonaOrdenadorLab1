@@ -1,6 +1,7 @@
 import BlogEntryLayout from "@/components/BlogEntryLayout/BlogEntryLayout";
+import ImageContainer from "@/components/ImageContainer/ImageContainer";
 import Section from "@/components/Section/Section";
-import { Code, Container, Image, Text } from "@mantine/core";
+import { Code, Container, Text } from "@mantine/core";
 
 const CSSPage = () => {
   const flexCode = `display: flex; 
@@ -29,9 +30,7 @@ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));`;
           solo una estructura flexible que se reorganiza según el espacio
           disponible.
         </Text>
-        <Container size={"xs"}>
-          <Image src={`/responsive.png`} alt="" />
-        </Container>
+        <ImageContainer path={`/responsive.png`}/>
       </Section>
       <Section title="Herramientas clave: Flexbox y Grid" order={2}>
         <Text>
